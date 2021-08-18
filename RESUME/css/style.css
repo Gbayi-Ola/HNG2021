@@ -1,0 +1,33 @@
+
+#nav{
+    background-color: #ef8172;
+    color:#fff;
+}
+#first{
+    background-color: #ef8172;
+    padding: 2% 15% 2% 15%;
+    color:#fff;
+}
+#second{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 20px 15px 20px 15px;
+}
+#third{
+    padding: 2% 15% 0 15%;
+    background-color: #ef8172;
+    color:#fff;
+}
+#footer{
+    padding: 1% 15% 0 15%;
+    color:#fff;
+}
+/* MEDIAQUERY */
+@media (max-width:600px){
+    #first{
+        padding: 2% 15% 2% 10%;
+    }
+    #third{
+        padding: 2% 15% 0 10%;
+    }
+}
